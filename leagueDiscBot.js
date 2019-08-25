@@ -1,5 +1,5 @@
 let LeagueAPI = require('leagueapiwrapper');
-LeagueAPI = new LeagueAPI('RGAPI-74787200-512d-4edb-a6e8-f483f7a9846f', Region.NA);
+LeagueAPI = new LeagueAPI('RIOTGAMESAPIKEYHERE', Region.NA);
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const {prefix, token} = require(`./config.json`);
